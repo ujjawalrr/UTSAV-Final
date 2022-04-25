@@ -81,50 +81,57 @@
 
 
   <div align="center" class="trophy mt-5"><img src="img/logo.png" alt="logo"></div>
+
+  <div class="container-fluid bg-primary">
+    <h1 align="center" class=" text-light">
+      Cancer Statistics
+    </h1>
   </div>
 
-  </div>
-  <div class="bhai bg-light">
-    <div class="kgp bg-primary">
-      <div class="container-fluid bg-primary">
-        <h1 align="center" class=" text-light">
-          Cancer Statstics
-        </h1>
-      </div>
-      <div class="container-fluid bg-warning">
-        <h4 align="center" class=" text-primary">
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           Cancer Basics
-        </h4>
-        <h6 align="center" class="text-dark">
-          Understanding cancer,the health care team, and commonly used words
-
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Understanding cancer, the health care team, and commonly used words.</strong>
+        </div>
       </div>
     </div>
-
-    <div class="container-fluid bg-light">
-      <h4 align="center" class=" text-primary">
-        Financial Consideration
-      </h4>
-      <h6 align="center" class="text-dark">
-        Understanding and managing cost related to cancer care
-      </h6>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Financial Consideration
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Understanding and managing cost related to cancer care.</strong>
+        </div>
+      </div>
     </div>
-    <div class="container-fluid bg-light px-7">
-      <h4 align="center" class=" text-primary">
-        Dating,Sex and Reproduction
-      </h4>
-      <h6 align="center" class="text-dark">
-        Intimacy,sexual health,fertiality,and pregnency during treatment
-      </h6>
-    </div>
-    <div class="container-lg bg-light p-5" id="Facts">
-
-      <h2 align="center" class="text-dark mt-3">
-        FACTS
-        </h2>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Dating, Sex and Reproduction
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Intimacy, sexual health, fertiality, and pregnency during treatment.</strong>
+        </div>
+      </div>
     </div>
   </div>
 
+  <div class=" bg-light p-5" id="Facts">
+    <h2 align="center" class="text-dark mt-3">
+      FACTS
+      </h2>
+  </div>
 
   <div class="row">
     <div class="col-md-4">
@@ -328,7 +335,7 @@
 
 
     <div class="d-grid gap-2 col-sm-6 col-md-3 mx-auto ">
-      <button class="btn btn-danger mb-5" type="button" style="background-color:#FF4081;">Donate Now</button>
+      <button class="btn btn-danger mb-5 py-3" type="button" style="background-color:#FF4081;">Donate Now</button>
     </div>
 
   </div>
@@ -346,8 +353,8 @@
       <textarea class="form-control text-center text-white" id="exampleFormControlTextarea1" rows="7" placeholder="Enter Your Message here"
         style="background-color:#FF80AB ; border: 0px solid; border-radius: 1rem; "></textarea>
     </div>
-    <div class="d-grid gap-2 col-4 mx-auto ">
-      <button class="btn btn-danger mb-5" type="button" style="background-color:#FF4081;">Submit</button>
+    <div class="d-grid gap-2 col-sm-6 col-md-3 mx-auto ">
+      <button class="btn btn-danger mb-5 py-3" type="button" style="background-color:#FF4081;">Submit</button>
     </div>
 
   </div>
